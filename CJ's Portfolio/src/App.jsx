@@ -1,19 +1,21 @@
+// Imports
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 
-// Import navbar
-import Navbar from "./components/Navbar";
-
 import "./App.css";
+import Hero from './components/Hero'
+import Navbar from './components/Navbar'
+
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      {/* Mount navbar */}
-      <Navbar></Navbar>
+      {/* Mount */}
+      <Navbar />
+      <Hero />
 
       <div>
         <a href="https://vitejs.dev" target="_blank">
