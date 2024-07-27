@@ -4,14 +4,14 @@ const Navbar = () => {
 return (
     <div>
         <div>
-            <div>Hi</div>
+            <div>Chelsea Jarvis</div>
             <div>
                 <a href='#home'>Home</a>
-                <a href='#Portfolio'>Portfolio</a>
-                <a href='#Contact'>Contact</a>
-                <a href='#Resume'>Resume</a>
-       
+                <a href='#home'>Portfolio</a>
+                <a href='#home'>Contact</a>
+                <a href='#home'>Resume</a>
             </div>
+            <button>Connect Me</button>
         </div>
     </div>
 
