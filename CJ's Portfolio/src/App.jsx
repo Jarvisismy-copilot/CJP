@@ -15,7 +15,7 @@ function App() {
       {/* Mount */}
       <Navbar />
       <Hero />
-      {/* Mount About */}
+      {/* Mount About Not Workong Debug? */}
 
 <div>
         <a href="https://vitejs.dev" target="_blank">
