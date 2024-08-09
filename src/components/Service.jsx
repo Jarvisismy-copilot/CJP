@@ -1,41 +1,47 @@
 ﻿import React from "react";
 
 const services = [
-
     {
         id: 1, 
         title: ""
         description: "",
     }, 
-
     {
         id: 2, 
         title: ""
         description: "",
     }, 
-
     {
         id: 3, 
         title: ""
         description: "",
-    }, 
-
+    },
     {
         id: 4, 
         title: ""
         description: "",
     }, 
-
-
-
-]
+];
 const Service = () => {
   return (
     <div className="bg-black text-white py-20" id="about">
       <div className="container mx-auto px-8 md:px-16 1g:px-24">
         <h2 className="text-4x1 font-bold text-center mb-12">About Me</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:gride-cols-3 gap-8">
+        {services.map(service => (
+    <div 
+        key={service.id}
+        className= "bg-gray-800 px-6 pb-6 rounded-lg hover:shadow-lg transform transition-transform duration-300 hover:scale-105">
 
+<div 
+    className="text-right text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-greeen-600">      
+    {service.id}
+    </div>
+<h3
+className= "">
+</h3>
+    </div>
+ ))}
         </div>
       </div>
     </div>
