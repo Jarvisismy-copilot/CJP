@@ -13,16 +13,36 @@ const About = () => {
             className="w-72 h-80 rounded object-cover mb-8 md:mb-0"
           />
           <div className="flex-1">
-            <p className="text-lg mb-8">Add Bio...</p>
+            <p className="text-lg mb-8">
+              
+              Add Bio...
+
+
+            </p>
             <div className="space-y-4">
               <div className="flex items-center">
                 <label htmlFor="htmlandcss" className="w-2/12">
-                  HTML & CSS
+                HTML & CSS
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">
                   <div className="bg-gradient-to-r from-green-300 to-blue-400 h-2.5 rounded-full transform transitiion-transform duration-300 hover:scale-105 w-10/12">
+              </div>
+
+               <div className="flex items-center">
+                <label htmlFor="htmlandcss" className="w-2/12">
+                React JS
+                </label>
+                <div className="grow bg-gray-800 rounded-full h-2.5">
+                  <div className="bg-gradient-to-r from-green-300 to-blue-400 h-2.5 rounded-full transform transitiion-transform duration-300 hover:scale-105 w-7/12">
                   </div>
                 </div>
+              <div className="flex items-center">
+                <label htmlFor="htmlandcss" className="w-2/12">
+                Node JS
+                </label>
+                <div className="grow bg-gray-800 rounded-full h-2.5">
+                  <div className="bg-gradient-to-r from-green-300 to-blue-400 h-2.5 rounded-full transform transitiion-transform duration-300 hover:scale-105 w-8/12">
+                  </div>
               </div>
             </div>
           </div>
