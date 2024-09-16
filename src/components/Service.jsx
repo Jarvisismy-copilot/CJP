@@ -19,7 +19,7 @@ const services = [
     {
         id: 4, 
         title: ""
-        description: "",
+        description: "description 4",
     }, 
 ];
 const Service = () => {
