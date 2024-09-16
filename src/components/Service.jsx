@@ -9,7 +9,7 @@ const services = [
     {
         id: 2, 
         title: ""
-        description: "",
+        description: "description 2",
     }, 
     {
         id: 3, 
