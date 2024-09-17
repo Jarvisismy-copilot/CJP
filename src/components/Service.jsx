@@ -3,34 +3,32 @@
 const services = [
     {
         id: 1, 
-        title: ""
+        title: "",
         description: "description 1",
     }, 
     {
         id: 2, 
-        title: ""
+        title: "",
         description: "description 2",
     }, 
     {
         id: 3, 
-        title: ""
+        title: "",
         description: "description 3",
     },
     {
         id: 4, 
         title: "",
-        description "description"
-        title: ""
         description: "description 4",
     }, 
     {
       id: 5, 
-      title: ""
+      title: "",
       description: "description 5",
   }, 
   {
     id: 6, 
-    title: ""
+    title: "",
     description: "description 6",
 }, 
 ];
