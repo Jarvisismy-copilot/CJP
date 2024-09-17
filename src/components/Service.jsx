@@ -26,7 +26,11 @@ const services = [
       title: ""
       description: "description 5",
   }, 
-
+  {
+    id: 5, 
+    title: ""
+    description: "description 6",
+}, 
 ];
 const Service = () => {
   return (
