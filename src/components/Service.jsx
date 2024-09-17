@@ -27,7 +27,7 @@ const services = [
       description: "description 5",
   }, 
   {
-    id: 5, 
+    id: 6, 
     title: ""
     description: "description 6",
 }, 
